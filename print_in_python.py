@@ -21,3 +21,7 @@ print("2 + 3")
 
 #output - 2 + 3
 
+# print statement consider the , comma separated values as the variables and print them with the space .
+
+
+print(python is , a, , , good language!!)
