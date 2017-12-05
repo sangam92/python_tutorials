@@ -25,3 +25,27 @@ print(2e4)
 
 #output ---> 20000.0
 
+# Boolean is used to boolean values true and false.
+
+# we can find the type of any object using the "type" keyword.
+
+type(3)
+
+#output --  <class 'int'>
+
+type(3.0)
+
+#output --  <class 'float'>
+
+
+type("python")
+
+#output -- <class 'str'>
+
+
+
+
+
+
+
+
