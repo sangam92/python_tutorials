@@ -68,5 +68,85 @@ print(nestedtuple[-2]
 
 # The Output will be 3.
 
+#Slicing a tuple:
+
+a =(2,"san",6,7,9)
+print(a[2:4])
+
+#The output is 6,7
+
+print(a[:3])
+
+#The output is(2, 'san', 6).
+
+print(a[:])
+
+#The output is (2,"san",6,7,9)
+
+print(a[:-1])
+
+(2, 'san', 6, 7)
+
+# The tuples are immutable but if the element inside tuple is mutable .it can be changed.
+
+a =(2,"san",6,7,9)
+
+a[2]= 4
+
+#we get the below error;
+#TypeError: 'tuple' object does not support item assignment.
+#but in case of a list ,the result is different.
+
+my_tuple = (4, 2, 3, [6, 5])
+
+
+my_tuple[3][1]=9
+
+print(my_tuple)
+
+
+#The output is (4, 2, 3, [6, 9]).
+
+#deleting a tuple.
+
+
+
+my_tuple = (4, 2, 3, [6, 5])
+
+
+del my_tuple
+
+print(my_tuple)
+
+# The output is NameError: name 'my_tuple' is not defined.
+
+
+#concatenation of Tuples.
+
+
+a =(2,3,4)
+
+b =(4,5,6)
+
+print(a + b)
+
+# The output is (2, 3, 4, 4, 5, 6)
+
+
+a =(2,3,4,4,5)
+
+print(a.count(4))
+
+# The output is 2.
+
+
+a =(2,3,4,4,5)
+
+print(a.index(3))
+
+# The output is 1.
+ 
+ 
+ 
  
 
