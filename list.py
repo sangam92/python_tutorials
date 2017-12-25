@@ -115,4 +115,77 @@ print(b*3)
 #output= ['san', 'san', 'san']
 
 
+#Append in the List.
+
+b =[2,3,4,5,6,7,8]
+b.append(34)
+print(b)
+
+#output : [2, 3, 4, 5, 6, 7, 8, 34]
+
+#count in the List.
+
+b =[2,3,4,5,6,7,8,4]
+print(b.count(4))
+
+#output : 2
+
+#Insert in the List at a specified index.
+
+b =[2,3,4,5,6,7,8,4]
+b.insert(4,4)
+print(b)
+
+#output :[2, 3, 4, 5, 4, 6, 7, 8, 4]
+
+# Adding one List into another one.
+
+a=[2,3,4]
+b =[2,3,4,5,6,7,8,4]
+b.extend(a)
+print(b)
+
+#output : [2, 3, 4, 5, 6, 7, 8, 4, 2, 3, 4]
+
+#Note : There is no method in python which allow us to add a list in the specified position. 
+
+#Delete the first occurence of an element in python.
+
+b =[2,3,4,5,6,7,8,4]
+b.remove(4)
+print(b)
+
+#Output : [2, 3, 5, 6, 7, 8, 4]
+
+#Index of first occurence of a number.
+
+b =[2,3,4,5,6,7,8,4]
+
+print(b.index(4))
+
+#output : 2
+
+Note : if the number is not available in the List , we will get a ValueError.
+
+b =[2,3,4,5,6,7,8,4]
+
+print(b.index(33))
+
+#output : ValueError: 33 is not in list
+
+#Sorting in the List.
+
+b =[2,3,4,5,6,7,8,4]
+b.sort()
+print(b)
+
+#Output : [2, 3, 4, 4, 5, 6, 7, 8]
+
+#reverse  the order in the List.
+
+b =[2,3,4,5,6,7,8,4]
+b.reverse()
+print(b)
+
+#output : [4, 8, 7, 6, 5, 4, 3, 2]
 
